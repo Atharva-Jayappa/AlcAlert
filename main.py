@@ -45,7 +45,7 @@ s12 = 0
 # S21: S2 match - object 2 shown in a matching condition (S1 was identical to S2),
 s21 = 0
 s1_X_train = np.zeros((160, 256, 64))
-s1_y_train = np.zeros(160)
+s1_y_train = np.zeros(160) # result of S1_X_Train stored in 1D array
 s21_X_train = np.zeros((159, 256, 64))
 s21_y_train = np.zeros(159)
 s12_X_train = np.zeros((149, 256, 64))
@@ -83,7 +83,7 @@ t12 = 0
 # t21: S2 match - object 2 shown in a matching condition (S1 was identical to S2),
 t21 = 0
 t1_X_test = np.zeros((160, 256, 64))
-t1_y_test = np.zeros(160)
+t1_y_test = np.zeros(160) # result of t1_X_Train stored in 1D array
 t21_X_test = np.zeros((160, 256, 64))
 t21_y_test = np.zeros(160)
 t12_X_test = np.zeros((160, 256, 64))
